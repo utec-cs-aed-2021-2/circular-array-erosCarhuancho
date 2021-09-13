@@ -6,7 +6,7 @@ using namespace std;
 template <class T>
 class CircularArray
 {
-private:
+protected:
     T *array;
     int capacity;
     int back, front;
