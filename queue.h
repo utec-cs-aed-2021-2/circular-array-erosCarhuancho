@@ -16,4 +16,5 @@ class QueueArray : public CircularArray<T> {
         T a=this->pop_front();
         return a;
     }
+
 };
